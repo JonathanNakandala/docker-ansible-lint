@@ -5,6 +5,7 @@ RUN apk add --no-cache \
         gcc \
         python3-dev \
         musl-dev \
+        libffi-dev \
         && \
         pip3 install ansible-lint
 CMD ansible-lint
