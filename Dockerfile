@@ -2,6 +2,7 @@ FROM alpine
 RUN apk add --no-cache \
         python3 \
         py3-pip \
+        git \
         gcc \
         python3-dev \
         musl-dev \
